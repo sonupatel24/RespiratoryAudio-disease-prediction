@@ -48,7 +48,7 @@ A deep learning system that uses LSTM neural networks to predict respiratory dis
 
 4. **Run the web application**
    ```bash
-   streamlit run streamlit_app.py
+   streamlit run app.py
    ```
 
 The app will open in your browser at `http://localhost:8501`
@@ -59,7 +59,7 @@ The app will open in your browser at `http://localhost:8501`
 respiratory-disease-prediction/
 ├── lstm_model.py              # Main LSTM model class
 ├── train_model.py             # Training script
-├── streamlit_app.py           # Web application
+├── app.py                     # Web application
 ├── run_system.py              # Main runner script
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # This file
@@ -92,7 +92,7 @@ This will:
 
 1. **Start the app**
    ```bash
-   streamlit run streamlit_app.py
+   streamlit run app.py
    ```
 
 2. **Upload audio file**
