@@ -324,3 +324,4 @@ def main():
     print("Training completed!")
 
 if __name__ == "__main__":
+    main()
